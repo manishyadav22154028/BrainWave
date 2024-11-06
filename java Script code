@@ -1,0 +1,9 @@
+// Search button functionality
+document.getElementById("search-btn").addEventListener("click", function () {
+  alert("Search functionality is not implemented in this demo.");
+});
+
+// Sample video play action
+function playVideo() {
+  alert("Video play functionality is not implemented in this demo.");
+}
