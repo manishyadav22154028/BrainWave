@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Public Mart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">
+            <h1>Public Mart</h1>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#products">Products</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="search-bar">
+            <input type="text" placeholder="Search products...">
+            <button class="search-button">Search</button>
+        </div>
+    </header>
+
+    <main>
+    <section id="products" class="products">
+        <h2 class="section-title">Our Products</h2>
+        <div class="product-list">
+            <!-- Product 1 -->
+            <div class="product" data-id="1" data-price="99.99" data-name="Smartphone">
+                <img src="phione.jpg" alt="Smartphone">
+                <h3>Smartphone</h3>
+                <p class="price">$99.99</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <!-- Product 2 -->
+            <div class="product" data-id="2" data-price="49.99" data-name="T-Shirt">
+                <img src="tshirt.jpg" alt="T-Shirt">
+                <h3>T-Shirt</h3>
+                <p class="price">$49.99</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <!-- Product 3 -->
+            <div class="product" data-id="3" data-price="15.99" data-name="Book">
+                <img src="books.jpg" alt="Book">
+                <h3>Book</h3>
+                <p class="price">$15.99</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <!-- Product 4 -->
+            <div class="product" data-id="4" data-price="29.99" data-name="Headphones">
+                <img src="headphones.jpg" alt="Headphones">
+                <h3>Headphones</h3>
+                <p class="price">$29.99</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <!-- Product 5 -->
+            <div class="product" data-id="5" data-price="199.99" data-name="Laptop">
+                <img src="laptop.jpg" alt="Laptop">
+                <h3>Laptop</h3>
+                <p class="price">$199.99</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <!-- Product 6 -->
+            <div class="product" data-id="6" data-price="9.99" data-name="Water Bottle">
+                <img src="water bottle.jpg" alt="Water Bottle">
+                <h3>Water Bottle</h3>
+                <p class="price">$9.99</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <!-- Product 7 -->
+            <div class="product" data-id="7" data-price="59.99" data-name="Backpack">
+                <img src="bagpack.jpg" alt="Backpack">
+                <h3>Backpack</h3>
+                <p class="price">$59.99</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <!-- Product 8 -->
+            <div class="product" data-id="8" data-price="25.99" data-name="Sneakers">
+                <img src="sneaker.jpg" alt="Sneakers">
+                <h3>Sneakers</h3>
+                <p class="price">$25.99</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <!-- Product 9 -->
+            <div class="product" data-id="9" data-price="12.99" data-name="Coffee Mug">
+                <img src="coffiemug.jpg" alt="Coffee Mug">
+                <h3>Coffee Mug</h3>
+                <p class="price">$12.99</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <h3>Public Mart</h3>
+            <p>Your one-stop shop for the best products. Enjoy exclusive deals and fast delivery.</p>
+            <ul class="social-links">
+                <li><a href="#" target="_blank">Facebook</a></li>
+                <li><a href="#" target="_blank">Twitter</a></li>
+                <li><a href="#" target="_blank">Instagram</a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Public Mart | Designed with ❤️</p>
+        </div>
+    </footer>
+
+    <script src="s.js"></script>
+</body>
+
+</html>
